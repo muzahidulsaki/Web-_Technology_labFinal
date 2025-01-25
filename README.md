@@ -5,7 +5,7 @@ The token is provided in a JSON file. Once a token is used, it cannot be reused.
 #### Dashboard
 ![image alt](https://github.com/muzahidulsaki/Web_Technology_labFinal/blob/main/images/img1.jpg?raw=true)
 
-#### Book Add/Update/Delete
+#### Book - Add/Update/Delete
 ![image alt](https://github.com/muzahidulsaki/Web_Technology_labFinal/blob/main/images/img2.jpg?raw=true)
 
 #### Book Preview
