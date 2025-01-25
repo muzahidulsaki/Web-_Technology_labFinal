@@ -1,5 +1,7 @@
 # Web_Technology_labFinal
-It is a simple 
+#### Description
+It is a simple webpage using PHP. If I borrow a book for more than 10 days, a token is mandatory. Without a token, we cannot submit the borrowing form.
+The token is provided in a JSON file. Once a token is used, it cannot be reused. However, if I borrow a book for 10 days or less, a token is not required, and the form can be submitted without one.
 #### Dashboard
 ![image alt](https://github.com/muzahidulsaki/Web_Technology_labFinal/blob/main/images/img1.jpg?raw=true)
 
