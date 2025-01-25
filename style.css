@@ -1,0 +1,312 @@
+body, html {
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .top-image {
+    width: 1000px;  
+    height: 50px;
+    border: 2px black solid; 
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .allbg{
+    border: 3px black solid;
+    width: 90%;
+    padding: 50px;
+    background-color: rgb(227, 243, 247);
+  }
+  
+  .background {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .leftbox {
+    width: 190px;
+    height: 1412px;
+    border: 2px black solid;
+    box-shadow: rgba(0, 0, 0, .2) 6px 3px 8px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* .leftbox h3{
+    background-color: #928888;
+    padding: 10px;
+  } */
+  
+  .rightbox {
+    width: 190px;
+    height: 1412px;
+    border: 2px rgb(0, 0, 0) solid;
+    box-shadow: rgba(0, 0, 0, .2) -6px 3px 8px;
+    border-radius: 10px;
+  }
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .first {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+ 
+  
+  
+  .box1 {
+    width: 600px;
+    height: 200px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    
+  }
+
+  .table-container {
+    width: 100%; /* Set desired width */
+    max-height: 130px; /* Set desired max height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ddd; /* Optional: Add a border to the container */
+    margin: 20px 0; /* Optional: Add spacing */
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Full width inside the container */
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px; /* Smaller padding */
+    text-align: center;
+    font-size: 12px; /* Smaller text */
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+  .box11 {
+    width: 600px;
+    height: 350px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    
+  }
+
+  .box11 form{
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 0% 30% 30% 30%; */
+    text-align: center;
+  }
+
+  .box11 input{
+    
+    display: inline-block;
+    width: 150px; /* Adjust width as needed for proper alignment */
+
+  }
+
+  .box11 button{
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+  }
+
+  .box0{
+    width: 600px;
+    height: 200px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .box0 input{
+    height: 10px;
+    width: 50px;
+    border-radius: 10px;
+  }
+  .box0 button{
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+  #search-book {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.search-results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.search-results th, .search-results td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.search-results th {
+    background-color: #5555e3;
+}
+
+.search-results {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+  .box12{
+    width: 600px;
+    height: 350px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  .second {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  
+  .box2 {
+    width: 190px;
+    height: 260px;
+    border: 2px black solid;
+    border-radius: 10px;
+  }
+
+  .image-holder{
+    /* border: 1px solid #ccc; */
+    transition-duration:200ms;
+    transition-timing-function: ease-out;
+    text-align: center;
+    margin-top: 8px;
+  }
+  
+  .image-holder:hover {
+    /* border: 1px solid #777;
+    border-radius: 5%; */
+    transform: scale(1.05,1.05);
+  }
+  
+  .third {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .box3 {
+    width: 600px;
+    height: 200px;
+    border: 2px rgb(3, 3, 3) solid;
+    border-radius: 10px;
+  }
+  
+  .fourth {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  /* form Container*/
+
+  .title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .form-container {
+    width: 290px;
+    height: 500px;
+    border: 2px black solid;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-field{
+    margin-bottom: -10px;
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    box-sizing: border-box; 
+    padding: 7px 15px;
+}
+
+#token-field{
+  color: #928888;
+}
+
+.form-btn{
+    padding: 10px 15px;
+    margin-left: 17px;
+    /* margin-top: -17px; */
+    margin-right: 17px;
+    border: none;
+    border-radius: 20px;
+    background: teal;
+    color:white;
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+}
+
+/* End Form Container */
+
+
+  .borrow-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .box5 {
+    width: 300px;
+    height: 495px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    text-align: center;
+  }
